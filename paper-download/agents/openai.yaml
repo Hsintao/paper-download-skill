@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文批量下载"
+  short_description: "按标题批量下载论文，校验 PDF 并生成可重试的失败清单"
+  default_prompt: "使用 $paper-download 下载这份论文列表，按标题命名，并列出未下载的论文及原因。"
